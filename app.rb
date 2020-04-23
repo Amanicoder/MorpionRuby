@@ -57,9 +57,9 @@ class Board
   end
 
   def victory  #TO DO : qui gagne ?
-    if @board[0] == @board[1] && @board[1] == @board[2] ||
-       @board[3] == @board[4] && @board[4] == @board[5] ||
-       @board[6] == @board[7] && @board[7] == @board[8] ||
+    if @board[0] == @board[1] && @board[1] == @board[2] || #012
+       @board[3] == @board[4] && @board[4] == @board[5] || #345
+       @board[6] == @board[7] && @board[7] == @board[8] || #678
        @board[0] == @board[3] && @board[3] == @board[6] ||
        @board[1] == @board[4] && @board[4] == @board[7] ||
        @board[2] == @board[5] && @board[5] == @board[8] ||
