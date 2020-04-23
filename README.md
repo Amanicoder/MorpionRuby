@@ -14,3 +14,5 @@ et à exécuter dans ton terminal la commande "ruby app.rb" et enjoy :D
 
 Merci aux correcteurs :)
 
+Auteurs
+Projet réalisé par Amani CHEBBI et Liedel LAM.
